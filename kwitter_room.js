@@ -1,16 +1,15 @@
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyDbfe7sjbfY3ack_iLAEp84QWoiQ_CYiQY",
-  authDomain: "kwitterakshit.firebaseapp.com",
-  databaseURL: "https://kwitterakshit-default-rtdb.firebaseio.com",
-  projectId: "kwitterakshit",
-  storageBucket: "kwitterakshit.appspot.com",
-  messagingSenderId: "41193646220",
-  appId: "1:41193646220:web:367aa3a021206acb61f3a9"
-};
+  const firebaseConfig = {
+    apiKey: "AIzaSyBIvCxeRPnlncOydplvLXIDAdQS1QJpv6s",
+    authDomain: "kwitter-revive.firebaseapp.com",
+    projectId: "kwitter-revive",
+    storageBucket: "kwitter-revive.appspot.com",
+    messagingSenderId: "294593029594",
+    appId: "1:294593029594:web:6d8181bcbac2e88ff8cce3"
+  };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
 //ADD YOUR FIREBASE LINKS HERE
 user_name = localStorage.getItem("user_name");
 room_name = localStorage.getItem("room_name");
